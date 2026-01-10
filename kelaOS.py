@@ -1,5 +1,8 @@
-t = input('enter username:')
-s = input('enter password:')
+input('CPU:active, press enter')
+input('videocard:active, press enter')
+input('materine:active, press enter')
+t = input("enter username:")
+s = input("enter password:")
 print('1:settings')
 print('2:off sistem')
 print('3:developer')
@@ -25,7 +28,7 @@ while True:
     elif user_input in ["3", "3"]:
         print("developer:k9gy")
     elif user_input in ["4", "4"]:
-        input("enter username:")
+        t = input("enter username:")
     elif user_input in ["5", "5"]:
         input("enter text for notepad:")
     elif user_input in ["6", "6"]:
@@ -49,7 +52,7 @@ while True:
         u = input('enter message:')
         print(f"{x}:{u}")
     elif user_input in ["9", "9"]:
-        print('s:song,v:vpn,sp:spam bot')
+        print('s:song,v:vpn,sp:spam bot, gm:game')
     elif user_input in ["s", "s"]:
         print('download...')
         print('Last Christmas I gave you my heart But the very next day you gave it away This year To save me from tears I’ll give it to someone special Once bitten and twice shy I keep my distance But you still catch my eye Tell me baby Do you recognize me?')
@@ -80,6 +83,10 @@ while True:
         print('spam')
         print('spam')
         print('spam')
+    elif user_input in ["gm", "gm"]:
+        print('download...')
+        input('solve the riddle: how long will it take to cook 3 eggs if one egg takes 1 minute?')
+        print('The correct answer is 1 minute')
     elif user_input in ["10", "10"]:
         print('answer:', eval(input()))
     elif user_input in ["11", "11"]:
