@@ -16,6 +16,7 @@ print('10:calculator')
 print('11:app creator')
 print('12:account info')
 print('13:edit password')
+print('14:Task manager')
 
 while True:
     user_input = input("> ").lower().strip()
@@ -113,5 +114,9 @@ while True:
         print(f"password:{s}")
     elif user_input in ["13", "13"]:
         s = input("enter new password:")
+    elif user_input in ["14", "14"]:
+        import os
+        os.system('taskmgr')
     else:
         print("please enter the number")
+
